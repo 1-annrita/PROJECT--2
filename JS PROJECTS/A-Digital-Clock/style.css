@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://i.pinimg.com/736x/63/c5/d8/63c5d82fdcc934ce9b6baa165a798f5f.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    height: 100vh; */
+    overflow: hidden;
+}
+
+
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-align: center;
+    color: #e92af3;
+    color: white;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background: slateblue;
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 0.8;
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: #e92af3;
+}
+
+
+/* Responsive styles */
+/* @media screen and (min-width : 750px) {
+    h2 {
+        position: sticky;
+        top: 530px;
+    }
+
+    .clock {
+        position: sticky;
+        top: 580px;
+    }
+} */
