@@ -5,11 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     
+    <div class="container">
+
+        <div class="quotes">
+            <p id="quote">The quote</p>
+            <h3 id="author">Author name</h3>
+        </div>
+
+    </div>
+
+    <div style="text-align: center;">    
+        <button onclick="generate()" type="button" class="btn btn-info">Generate Quote</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 

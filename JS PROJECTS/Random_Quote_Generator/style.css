@@ -1,0 +1,44 @@
+body{
+    background: lightseagreen;
+}
+.container{
+    width: 95%;
+
+    /* Size of the window */
+    height: 100vh;
+    display: flex;
+    text-align: center;
+}
+
+.quotes{
+    width: 900px;
+    height: 450px;
+    
+    /* Place container in the center */
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    /* Place flex items at the center of the screen(along the y-axis) */
+    justify-content: center;
+
+    /* Place flex items at the center of the page(center of x-y axis) */
+    align-items: center;
+
+    padding: 0 50px;
+    color: #808080;
+    background-color: #f4edea;
+    border: 10px solid #f4d1f4;
+
+}
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    } 
+}
