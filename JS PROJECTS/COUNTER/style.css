@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(#59621e,#655230);
+    overflow: hidden;
+}
+
+.container{
+    /* border: 10px solid black; */
+
+
+    width:95%  ;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.counter{
+   border: 5px solid black; 
+   width: 600px;
+   height: 350px;
+   margin: auto;
+   padding: 25px;
+   text-align: center;
+   background: #656536;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.counter h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(148, 122, 91);
+}
+
+#count{
+    font-size: 9rem;
+    color: #9b9b0e;
+}
