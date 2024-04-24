@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="image fade">
+            <img src="img/BMW M2 F87.jpg" alt="BMW M2" width="100%" height="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="img/Hummer H1 Alpha 2001.jpg" alt="Hummer H1 Alpha 2001" width="100%" height="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="img/jeep.jpg" alt="Jeep" width="100%" height="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="img/Lamborghini.jpg" alt="Lamborghini" width="100%" height="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="img/Mercedes.jpg" alt="Mercedes" width="100%" height="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="img/Mercedes Benz AMG GTR.jpg" alt="Mercedes Benz AMG GTR" width="100%" height="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="img/Rolls-Royce.jpg" alt="Rolls-Royce" width="100%" height="100%">
+        </div>
+
+        <i id="prev" onclick="show_image(-1)" class="fa-solid fa-angle-left"></i>
+        <i id="next" onclick="show_image(1)" class="fa-solid fa-angle-right"></i>
+
+
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
