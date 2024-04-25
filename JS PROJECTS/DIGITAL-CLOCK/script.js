@@ -5,7 +5,7 @@ function calculateTime(){
     var hour = date.getHours();
     var minute = date.getMinutes();
     var ampm = hour >= 12 ? 'PM': 'AM';
-    var dayNames = ["sUN", "MON", "TUE", "WED", "THUR", "FRI", "SAT"];
+    var dayNames = ["SUN", "MON", "TUE", "WED", "THUR", "FRI", "SAT"];
 
     // the modulo operation returns the remainder 
     // or signed remainder of a division,
