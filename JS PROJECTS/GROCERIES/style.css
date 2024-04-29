@@ -1,0 +1,79 @@
+/* REMOVE ANY PADDING AND MARGIN FROM OUR ELEMENTS */
+/* TO ACCESS OUR ELEMENTS -- USE *(ASTERISK) */
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* font-family: "Mumblers Demo"; */
+    background: orange;  
+}
+
+.container{
+    /* border: 4px solid black; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.groceries{
+    /* border: 4px solid rgb(12, 1, 1); */
+    width: 600px;
+    /* As our grocery list grows, 
+    so does the container in size*/
+    min-height: 100vh;
+    margin: auto;
+    background: white;
+    box-shadow: 10px 10px 24px 0 rgba(0,0,0,0.5);
+}
+
+
+.groceries h1{
+    font-size: 2.5rem;
+    margin-top: 1em;
+    color: #747474;
+}
+
+.groceries i{
+    font-size: 2rem;
+    color: orange;
+}
+
+.groceries input{
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+#allItems h2{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+
+@media(max-width:480px){
+    .groceries h1{
+        font-size: 2rem;
+    }
+    .groceries i{
+        font-size: 1.5rem;
+    }
+    .groceries input{
+        font-size: 1rem;
+    }
+    .groceries h1{
+        font-size: 2rem;
+    }
+    #allItems h2{
+        font-size: 1.5rem;
+        margin-left: 25px;
+    }
+}
