@@ -1,6 +1,8 @@
 body{
     overflow: hidden;
-    background: linear-gradient(#aaf157,#c059ce);
+    /* background: linear-gradient(#aaf157,#c059ce); */
+    background: url(https://i.pinimg.com/564x/f8/f5/78/f8f5786a2bf68ee1341f75e9689325f2.jpg);
+    background-size: cover;
 }
 
 .container{
