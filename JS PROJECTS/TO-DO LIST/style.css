@@ -87,13 +87,14 @@ body{
 }
 
 .item{
+    background-color: rgb(158, 95, 104);
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: auto;
     border-radius: 2px;
     padding: 16px;
-    color: #454545;
+    color: gold;
     margin-top: 10px;
     font-size: 1rem;
     text-transform: uppercase;
@@ -105,11 +106,11 @@ body{
 }
 
 .item:hover{
-    box-shadow: 0 0 20px #e22865;
+    box-shadow: 0 0 10px #e22865;
     border: 1px solid #e22865;
 }
 
-
+ 
 .item i{
     cursor: pointer;
     margin: 0 5px;
