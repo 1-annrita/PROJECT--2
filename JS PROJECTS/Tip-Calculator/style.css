@@ -30,7 +30,7 @@ body{
     /* The font-weight property sets how thick or thin 
     characters in text should be displayed. */
     font-weight: 100;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0.5); 
+    box-shadow: 0 4px 8px 0 #000001; 
 }
 
 .calculator input{

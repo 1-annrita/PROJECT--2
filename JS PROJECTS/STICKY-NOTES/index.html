@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container1">
+
+        <div class="nav">
+            <button id="topButton" onclick="createNote()">Create Note</button>
+        </div>
+
+    </div>
+    
+    <div class="container2">
+        <div class="new-note">
+
+            <div id="icons">
+                <i  id="check" class="fa-regular fa-circle-check"></i>
+                <i id="xmark" class="fa-regular fa-circle-xmark"></i>
+            </div>
+
+            <textarea id="writeNote" placeholder="Write Note..." maxlength="96"></textarea>        
+        </div>    
+    </div>
+
+    <div class="container3">
+        <div class="screenNote">
+            <h2>SCREEN-NOTE</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
