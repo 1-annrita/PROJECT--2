@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Luckiest Guy", cursive;
+    background-color: #e6e6;
+    /* overflow: hidden; */
+    /* background-color: #e6e6ea; */
+}
+
+.container{
+    /* border: 2px solid black; */
+    padding: 20px;
+    overflow: hidden;
+    /* background-color: #fe4a; */
+    background-color: #fe4a49;
+}
+
+.container h1{
+    float: left;
+    margin-left: 10%;
+    color: rgb(2, 94, 94);
+    font-size: 3rem;
+}
+
+.container ul{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 60%;
+}
+
+.container li{
+    margin-top: 10px;
+    /* Horizontal */
+    float: left;
+    /* top, right, bottom, left */
+    padding: 0 20px 0 20px;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Add a dash underneath whatever option
+we are currently on */
+
+.current a::after{
+    content: '_';
+    background-color: white;
+    font-size: 4px;
+    display: block;
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+
+.equation{
+    /* border: 2px solid green; */
+    font-size:65px ;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.equation h1{
+    display: inline;
+    padding: 20px;
+}
+
+.answer-options{
+    /* border: 2px dotted black; */
+    font-size: 67px;
+    margin-right: 10px;
+    
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+}
+
+.answer-options h1{
+    cursor: pointer;
+    color: rgb(90, 57, 57);
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#option1{
+    background-color: greenyellow;
+    transition: 1s;
+}
+
+#option1:hover{
+    color: greenyellow;
+    background-color: white;
+}
+
+#option2{
+    background-color: #2ab7ca;
+    transition: 1s;
+}
+
+#option2:hover{
+    color: #2ab7ca;
+    background-color: white;
+}
+#option3{
+    background-color: #fed766;
+    transition: 1s;
+}
+
+#option3:hover{
+    color: #fed766;
+    background-color: white;
+}
